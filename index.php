@@ -111,7 +111,7 @@
                     </div>
 
                     <label class="checkbox">
-                        <input id="show-complete-tasks" class="checkbox__input visually-hidden" <?php printf($checked); ?> type="checkbox">
+                        <input id="show-complete-tasks" class="checkbox__input visually-hidden" <?php echo $checked; ?> type="checkbox">
                         <span class="checkbox__text">Показывать выполненные</span>
                     </label>
                 </div>
